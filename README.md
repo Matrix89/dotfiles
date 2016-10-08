@@ -1,5 +1,7 @@
 # My dotfiles
 
+
+
 Progrmas:
 * BSPWM
 * Compton
@@ -7,3 +9,5 @@ Progrmas:
 * lemonbar
 * nitrogen
 * urxvt
+
+[Theme](https://github.com/chriskempson/tomorrow-theme/tree/master/Xdefaults)
