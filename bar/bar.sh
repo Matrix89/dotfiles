@@ -21,7 +21,7 @@ while true; do
 		  #BAR="%{r} $(cat /proc/loadavg | cut -d ' ' -f 1)"
 				BAR=""
 		  BAR="$BAR %{r} $(date +%H:%M:%S)"
-		  BAR="$BAR %{c} $(xdotool getwindowfocus getwindowname)"
+		  BAR="$BAR %{c} $(xtitle -t 50)"
 		  BAR="$BAR %{l} $(workspaceInfo)"
 		  echo -e $BAR 
 		  sleep 0.01
