@@ -11,3 +11,4 @@ cp ~/.config/Xresources ./
 cp ~/.vimrc vimrc
 cp ~/.config/compton.conf ./
 
+git status
