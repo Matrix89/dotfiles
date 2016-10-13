@@ -10,3 +10,5 @@ cp bar/bar.sh ~/.config/bar/
 cp Xresources ~/.config/Xresources
 cp vimrc ~/.vimrc
 cp compton.conf ~/.config/
+cp bash_profile ~/.bash_profile
+cp bashrc ~/.bashrc
