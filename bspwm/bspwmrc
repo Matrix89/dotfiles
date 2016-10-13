@@ -1,6 +1,7 @@
 #! /bin/sh
 
 sxhkd &
+setxkbmap pl
 xmodmap ~/.escToCaps &
 ~/.config/monitorsConfig.sh
 nitrogen --restore &
