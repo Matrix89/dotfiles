@@ -8,4 +8,8 @@
 alias ls='ls --color=auto'
 alias l='ls'
 alias ..='cd ..'
+
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+
 PS1='[\u@\h \W]\$ '
