@@ -51,12 +51,7 @@ Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
 colorscheme solarized
-let bg=$BG_COLOR
-if bg == "light"
-    set background=light
-else
-    set background=dark
-endif
+set background=dark
 
 " let g:airline_powerline_fonts=1
 let g:airline#extensions#tabline#enabled = 1
