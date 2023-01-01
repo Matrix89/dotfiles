@@ -1,0 +1,27 @@
+autoload -Uz compinit promptinit
+compinit
+promptinit
+
+prompt walters
+
+setopt PUSHDSILENT
+alias cd=pushd
+alias dc=popd
+
+
+#local LAST_TIME=`stat -L -c %Z ~/.zshrc`
+#while true
+#do
+    #local CURRENT_TIME=`stat -L -c %Z ~/.zshrc`
+    #if [[ "$LAST_TIME" != "$CURRENT_TIME" ]]
+    #then
+        #echo "config changed reloading"
+        #source ~/.zshrc
+        #LAST_TIME=$CURRENT_TIME
+        #break
+    #fi
+    #sleep 1
+#done & > /dev/null
+
+zstyle ':completion:*' menu select
+zstyle ':completion::complete:*' gain-privileges 1
